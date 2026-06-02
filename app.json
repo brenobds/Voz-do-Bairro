@@ -1,0 +1,8 @@
+{
+  "expo": {
+    "name": "Voz do Bairro",
+    "slug": "voz-do-bairro",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0"
+  }
+}
