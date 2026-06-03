@@ -49,6 +49,8 @@ Aperte a para abrir no emulador Android.
 
 Aperte i para abrir no emulador iOS.
 
+---
+
 💻 Testando como App de Desktop (PWA)
 Como o layout foi blindado para telas grandes, você pode testar o projeto como se fosse um programa de computador de verdade:
 
@@ -62,10 +64,13 @@ Marque a caixinha "Abrir como janela" e clique em Criar.
 
 Pronto! O app ganha uma janela exclusiva sem abas e vira um software desktop com atalho na sua Área de Trabalho.
 
+---
+
 📌 Notas de Desenvolvimento
 Web First & StyleSheet: Mudei o foco do Tailwind/NativeWind para o StyleSheet nativo do React Native. Essa decisão corrigiu os bugs de CSS que davam tilt no navegador, deixando o menu inferior e os formulários limpos, modernos e funcionais.
 
-🎓 Quem Fez (Membros: 1):
+
+🎓 Entrega do trabalho (Membros: 1):
 Desenvolvedor: Breno da Silva Bonim
 Matrícula: 202508233371
 Curso: Engenharia de Software
