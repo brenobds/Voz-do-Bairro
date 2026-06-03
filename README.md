@@ -39,6 +39,8 @@ npm install
 
 npx expo start --clear
 
+---
+
 ⌨️ Atalhos salvadores no terminal:
 
 Aperte w e o app abre direto no seu navegador web padrão.
@@ -65,9 +67,6 @@ Web First & StyleSheet: Mudei o foco do Tailwind/NativeWind para o StyleSheet na
 
 🎓 Quem Fez (Membros: 1):
 Desenvolvedor: Breno da Silva Bonim
-
 Matrícula: 202508233371
-
 Curso: Engenharia de Software
-
 Disciplina: Programação para dispositivos móveis em Android
