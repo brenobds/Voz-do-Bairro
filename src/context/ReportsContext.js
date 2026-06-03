@@ -14,7 +14,7 @@ export function ReportsProvider({ children }) {
     if (db) {
       initDB();
     } else {
-      // Dados de teste para você visualizar o layout no navegador (Ambiente Web)
+    
       setReports([
         {
           id: '1',
@@ -37,7 +37,7 @@ export function ReportsProvider({ children }) {
   }, []);
 
   function initDB() {
-    if (!db) return; // Trava para a Web
+    if (!db) return; 
 
     db.transaction(tx => {
       tx.executeSql(
@@ -70,7 +70,7 @@ export function ReportsProvider({ children }) {
     const createdAt = new Date().toISOString();
 
     if (!db) {
-      // Se for Web, simula a adição na memória para você testar na tela
+     
       const newReport = { id, title, category, description, status: 'Pendente', createdAt };
       setReports(prev => [newReport, ...prev]);
       return;
@@ -88,7 +88,7 @@ export function ReportsProvider({ children }) {
 
   function deleteReport(id) {
     if (!db) {
-      // Se for Web, simula a deleção na memória
+      
       setReports(prev => prev.filter(report => report.id !== id));
       return;
     }

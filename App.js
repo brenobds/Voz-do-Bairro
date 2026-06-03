@@ -1,6 +1,6 @@
 import React from 'react';
 
-// ====== 1. VACINA DEFINITIVA CONTRA A TELA BRANCA (LEITURA WEB) ======
+
 if (typeof global !== 'undefined' && !global.__unitlessNumbersPatch) {
   const patch = {
     animationIterationCount: true, borderImageOutset: true, borderImageSlice: true,
